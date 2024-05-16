@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
 import { JSX, SVGProps } from "react"
 
+
 export default function Home() {
   return (
     <div key="1" className="flex flex-col min-h-[100dvh]">
@@ -39,7 +40,7 @@ export default function Home() {
                     href="https://github.com/VamsiSaketh98"
                     target="_blank"
                   >
-                    <GithubIcon className="h-6 w-6" />
+                    <GithubIcon  />
                     <span className="sr-only">GitHub</span>
                   </Link>
                   <Link
@@ -47,7 +48,7 @@ export default function Home() {
                     href="https://www.linkedin.com/in/vamsi-saketh-7b8646192"
                     target="_blank"
                   >
-                    <LinkedinIcon className="h-6 w-6" />
+                    <LinkedinIcon  />
                     <span className="sr-only">LinkedIn</span>
                   </Link>
                   <Link
@@ -55,7 +56,7 @@ export default function Home() {
                     href="https://twitter.com/VamsiSaketh"
                     target="_blank"
                   >
-                    <TwitterIcon className="h-6 w-6" />
+                    <TwitterIcon  />
                     <span className="sr-only">Twitter</span>
                   </Link>
                 </div>
@@ -173,7 +174,7 @@ export default function Home() {
                 href="https://github.com/VamsiSaketh98"
                 target="_blank"
               >
-                <GithubIcon className="h-6 w-6" />
+                <GithubIcon  />
                 <span className="sr-only">GitHub</span>
               </Link>
               <Link
@@ -181,7 +182,7 @@ export default function Home() {
                 href="https://www.linkedin.com/in/vamsi-saketh-7b8646192"
                 target="_blank"
               >
-                <LinkedinIcon className="h-6 w-6" />
+                <LinkedinIcon  />
                 <span className="sr-only">LinkedIn</span>
               </Link>
               <Link
@@ -189,11 +190,11 @@ export default function Home() {
                 href="https://twitter.com/VamsiSaketh"
                 target="_blank"
               >
-                <TwitterIcon className="h-6 w-6" />
+                <TwitterIcon  />
                 <span className="sr-only">Twitter</span>
               </Link>
               <Link className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50" href="#">
-                <MailIcon className="h-6 w-6" />
+                <MailIcon  />
                 <span className="sr-only">Email</span>
               </Link>
             </div>
@@ -206,10 +207,11 @@ export default function Home() {
   )
 }
 
-function GithubIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
+
+function GithubIcon( ) {
   return (
     <svg
-      {...props}
+      
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -227,10 +229,11 @@ function GithubIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
 }
 
 
-function LinkedinIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
+
+function LinkedinIcon() {
   return (
     <svg
-      {...props}
+     
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -249,10 +252,13 @@ function LinkedinIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) 
 }
 
 
-function TwitterIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
+
+
+
+function TwitterIcon() {
   return (
     <svg
-      {...props}
+     
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -268,10 +274,12 @@ function TwitterIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   )
 }
 
-function MailIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
+
+
+function MailIcon( ) {
   return (
     <svg
-      {...props}
+      
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -288,13 +296,4 @@ function MailIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   )
 }
 
-<div className="flex items-center gap-4 mt-4 min-[400px]:mt-0">
-  <Link
-    className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-    href="https://twitter.com/VamsiSaketh"
-    target="_blank"
-  >
-    <TwitterIcon className="h-6 w-6" />
-    <span className="sr-only">Twitter</span>
-  </Link>
-</div>
+
