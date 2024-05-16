@@ -5,6 +5,7 @@ import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
+import { JSX, SVGProps } from "react"
 
 export default function Home() {
   return (
@@ -205,7 +206,7 @@ export default function Home() {
   )
 }
 
-function GithubIcon(props) {
+function GithubIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -226,7 +227,7 @@ function GithubIcon(props) {
 }
 
 
-function LinkedinIcon(props) {
+function LinkedinIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -248,7 +249,7 @@ function LinkedinIcon(props) {
 }
 
 
-function TwitterIcon(props) {
+function TwitterIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -267,7 +268,7 @@ function TwitterIcon(props) {
   )
 }
 
-function MailIcon(props) {
+function MailIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
