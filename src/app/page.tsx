@@ -197,7 +197,7 @@ export default function Home() {
               </Link>
             </div>
             <br />
-            <Button className="w-full" href="/Sri Sai Vamsi Saketh Adapa.pdf">Download Resume</Button>
+            <Button className="w-full" >Download Resume</Button>
           </div>
         </div>
       </section>
