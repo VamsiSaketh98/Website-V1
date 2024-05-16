@@ -127,13 +127,13 @@ export default function Home() {
         </div>
       </section>
       <section className="w-full py-12 md:py-24 lg:py-32">
-        <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
-          <div className="space-y-2">
+        <div className="container grid items-center justify-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
+          <div className="space-y-2 text-center">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">About Me</h2>
             <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               I'm a full-stack developer crafting user-friendly web experiences with React, Tailwind, and Next.js. Intrigued by the world of AI, I'm actively exploring machine learning. When I'm not coding, you'll find me analyzing the stock market, always looking for new ways to learn and grow
             </p>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 justify-center">
               <Badge variant="secondary">Java</Badge>
               <Badge variant="secondary">JavaScript</Badge>
               <Badge variant="secondary">React</Badge>
@@ -149,7 +149,7 @@ export default function Home() {
           </div>
           <img
             alt="About"
-            className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last lg:aspect-square"
+            className="mx-auto aspect-square overflow-hidden rounded-full object-cover object-center sm:w-xl lg:order-last lg:aspect-square"
             height="250"
             src="/avatar.jpg"
             width="250"
